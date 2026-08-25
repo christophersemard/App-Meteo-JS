@@ -1,4 +1,5 @@
-const keyAPI = '8770d91a5e39581cbe0f8b6be7c75f33';
+// Remplacer localement par une clé OpenWeatherMap. Ne jamais committer une clé.
+const keyAPI = 'YOUR_OPENWEATHER_API_KEY';
 
 let long;
 let lat;
@@ -118,4 +119,3 @@ function appWeather(dataWeather, dataVille) {
     document.querySelector("#hidden").style.display = "block";
 
 }
-
